@@ -1,0 +1,17 @@
+
+# Exclude editor temporary files
+.DS_Store
+thumbs.db
+
+# Exclude build output
+node_modules/
+
+# Exclude package files
+*.zip
+*.tar.gz
+
+# Exclude sensitive or environment-specific files
+config.ini
+.env
+
+
