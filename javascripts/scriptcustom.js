@@ -1,5 +1,5 @@
 
-function Menu(e){
+function Menu(e, a){
   let menu = document.getElementById('phoneMenu');
   e.name === 'menu' ? (
     e.name = "close",
@@ -12,11 +12,11 @@ function Menu(e){
       menu.classList.add('ms:hidden'),
       menu.classList.add('hidden')
     );
-  console.log(arrow)
+    if(a === 1 ){
+      let icon = document.getElementById('icon');
+      icon.name='menu'
+    }
 }
-
-
-
 
 // function Menu(e){
 //     let ul = document.getElementById('burger-menu');
