@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="customStyle.css">
     <title>Driss D.</title>
     <link rel="icon" href="img/icon.png" type="image/x-icon">
@@ -29,9 +28,8 @@
         }
     </style>
 </head>
-<body class="font-nunito bg-custom1 text-white verflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-300 hover:scrollbar-thumb-gray-700
-    ">
-    <header class="sticky top-0 bg-custom1 p-5">
+<body class="font-nunito bg-custom1 text-white verflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-300 hover:scrollbar-thumb-gray-700 ">
+    <header class="sticky top-0 bg-custom1 p-5 "> <!-- sticky (without w-full)-->
         <nav class="flex justify-between items-center ">
             <a href="index.html" class=" text-2xl ">
                 <pre><span class="text-red-500">Driss </span><span class="text-white">Daif</span></pre>
@@ -62,8 +60,9 @@
                 </li>
             </ul>
             <!-- phone Menu -->
+
             <!-- burger icon -->
-            <span class="text-3xl cursor-pointer mx-2 sm:hidden block my-auto ">
+            <span class="text-3xl cursor-pointer mx-2 sm:hidden block my-auto border border-white">
                 <span class="flex items-center">
                     <ion-icon name="menu" onclick="Menu(this, 0)" id="icon"></ion-icon>
                 </span>
@@ -98,8 +97,8 @@
     </header>
 
     <!-- intro section -->
-    <div class="flex flex-col justify-evenly items-center h-[100vh] ">  
-        <div class="flex flex-col justify-around items-center">
+    <div class="flex flex-col justify-evenly items-center h-[100vh] border border-white ">   <!-- with this parameters the content is centered in both small and bigger screens-->
+        <div class="flex flex-col justify-around items-center ">
             <h1 class="text-5xl sm:text-6xl text-center font-light pb-10 "> 
                 <span class="text-6xl sm:text-7xl">H</span>EY, 
                     <br class="sm:hidden max-xs:block"/>
