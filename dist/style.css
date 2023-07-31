@@ -1334,6 +1334,10 @@ video {
   text-shadow: -1px 3px 11px #6366f1;
 }
 
+.first-letter\:border::first-letter {
+  border-width: 1px;
+}
+
 .first-letter\:font-extrabold::first-letter {
   font-weight: 800;
 }

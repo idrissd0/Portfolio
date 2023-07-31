@@ -36,6 +36,7 @@
             <a href="index.html" class=" text-2xl ">
                 <pre><span class="text-red-500">Driss </span><span class="text-white">Daif</span></pre>
             </a>
+
             <!-- primary menu -->
             <ul class="hidden sm:flex space-x-3 ">
                 <li class=" hover:text-rose-500 first-letter:font-extrabold first-letter:text-red-500 opacity-80 font-medium transition ease-out duration-700">
@@ -61,16 +62,22 @@
                     </a>
                 </li>
             </ul>
-            <!-- phone Menu -->
 
-            <!-- burger icon -->
-            <span class="text-3xl cursor-pointer mx-2 sm:hidden block my-auto">
+            <!-- phone Menu -->            
+            <span class="text-3xl cursor-pointer mx-2 sm:hidden block my-auto"><!-- burger icon -->
                 <span class="flex items-center">
                     <ion-icon name="menu" onclick="Menu(this, 0)" id="icon"></ion-icon>
                 </span>
             </span>
 
-            <ul class=" flex-col items-center hidden sm:hidden bg-custom1 absolute top-[72px] left-[-1px] right-0 min-h-screen transition ease-out duration-700" id="phoneMenu">
+            <ul class="flex-col items-center 
+                hidden sm:hidden 
+                bg-custom1 
+                absolute top-[72px] left-[-1px] right-0 
+                min-h-screen 
+                transition ease-out duration-700
+                " 
+                id="phoneMenu">
                 <li class="first-letter:font-extrabold first-letter:text-red-500 opacity-80 font-normal py-5 text-2xl " >
                     <a href="#services" class="p-2"  onclick="Menu(this, 1)">Services</a>
                 </li>
