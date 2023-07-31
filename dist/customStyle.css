@@ -14,30 +14,30 @@
 }
 
 
-        /* scroll bar styling */
-        /* Width */
-        ::-webkit-scrollbar {
-          width: 8px;
-          }
-  
-          /* Track */
-          ::-webkit-scrollbar-track {
-          --tw-bg-opacity: 1;
-          background-color: rgb(15 23 38 / var(--tw-bg-opacity));
-          border-radius: 6px;
-          }
-  
-          /* Handle */
-          ::-webkit-scrollbar-thumb {
-          --tw-bg-opacity: 1;
-          background-color: rgb(15 23 75 / var(--tw-bg-opacity));
-          border-radius: 4px;
-          }
-  
-          /* Handle on hover */
-          ::-webkit-scrollbar-thumb:hover {
-          background: #888;
-          }
+/* scroll bar styling */
+/* Width */
+::-webkit-scrollbar {
+  width: 8px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 38 / var(--tw-bg-opacity));
+  border-radius: 6px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 75 / var(--tw-bg-opacity));
+  border-radius: 4px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+  background: #888;
+  }
 
 @media screen and (max-width: 800px) {
   .flexedParent{
@@ -52,3 +52,5 @@
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 38 / var(--tw-bg-opacity));
 }
+
+
