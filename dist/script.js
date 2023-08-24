@@ -106,3 +106,24 @@ function inputCheck() {
     }, 5000);
   }
 }
+
+function dropClick(){
+  elements = document.querySelectorAll('.resume-childs');
+
+  // if(elements[0].classList.contains("hidden")){
+  //   elements.classList.remove('hidden');
+  //   elements.classList.add('flex');
+  // } else {
+  //   elements.classList.remove('flex');
+  // elements.classList.add('hidden');
+  // }
+  elements.forEach(function(element) {
+    if (element.classList.contains("hidden")) {
+      element.classList.remove('hidden');
+      element.classList.add('flex');
+    } else {
+      element.classList.remove('flex');
+      element.classList.add('hidden');
+    }
+  });
+}

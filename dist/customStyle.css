@@ -54,3 +54,8 @@
 }
 
 
+li:hover .drop-svg{
+  --tw-bg-opacity: 1;
+  fill: rgb(239 68 68/ var(--tw-text-opacity));
+}
+
