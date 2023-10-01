@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "driss-d",
+    "site": "driss-d",  
     "public": "dist",
     "ignore": [
       "firebase.json",
